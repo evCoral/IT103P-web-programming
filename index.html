@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="\Javascript\loginform.js"></script>
+</head>
+<style>
+    body {
+  background-image: url('images/BGimage.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+    }   
+</style>
+<body>
+    <div class="login-container">
+        <div class="login-form">
+            <h1>LOGIN PAGE</h1>
+            <form>  
+                <label>Username : </label>  
+                <input id="username" type="text" placeholder="Enter Username" name="username" required> <br>
+                <label>Password : </label>   
+                <input id="password" type="password" placeholder="Enter Password" name="password" required> <br> 
+                <input type="checkbox" checked="checked"> Remember me <br>
+                <input id="login-submit" type="button" value="Login" onclick="validate()"/> 
+                <br>
+                Forgot <a href="#"> password? </a>
+            </form>  
+        </div>
+    </div> 
+</body>
+</html>
